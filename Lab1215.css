@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(250, 255, 212);
+}
+
+.input-container {
+    text-align: center;
+}
+
+/* Hide welcome message by default */
+.hidden {
+    display: none;
+}
+
+.button-container {
+    text-align: center;
+}
+
+
+.my-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+    color: #fff;
+}
+
+/* Button Colors */
+.button-primary {
+    background-color: #3498db;
+}
+
+.button-secondary {
+    background-color: #2ecc71;
+}
+
+.button-warning {
+    background-color: #e74c3c;
+}
+
+.button-info {
+    background-color: #3498db;
+}
+
+/* Hover Effect */
+.my-button:hover {
+    background-color: #555;
+}
+
+.reset-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.reset-button:hover {
+    background-color: #555;
+}
+
+
+.button-container {
+    text-align: center;
+}
+
+.my-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+    color: #fff;
+}
+
+/* Button Colors */
+.button-primary {
+    background-color: #3498db;
+}
+
+.button-secondary {
+    background-color: #2ecc71;
+}
+
+.button-warning {
+    background-color: #e74c3c;
+}
+
+.button-info {
+    background-color: #3498db;
+}
+
+/* Hover Effect */
+.my-button:hover {
+    background-color: #555;
+}
+
+.reset-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.reset-button:hover {
+    background-color: #555;
+}

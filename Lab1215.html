@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Lab1215.css">
+    <title>Button Design</title>
+</head>
+
+<body>
+
+    <div class="button-container">
+        <a href="#" class="my-button button-secondary"
+            onclick="alert(num1); document.body.style.backgroundColor = '#3496db';">First Num</a>
+        <a href="#" class="my-button button-secondary"
+            onclick="alert(num2); document.body.style.backgroundColor = '#3496db';">Second Num</a>
+        <a href="#" class="my-button button-warning" onclick="document.body.style.backgroundColor = 'red';">Warning
+            Button</a>
+        <a href="#" class="my-button button-info" onclick="document.body.style.backgroundColor = '';">Reset Button</a>
+    </div>
+
+    <script>
+        var num1 = parseInt(window.prompt("Enter the first number:"));
+        var num2 = parseInt(window.prompt("Enter the second number:"));
+
+        if (num1 > num2) {
+            document.writeln('<h2>' + num1 + '>' + num2 + '</h2>');
+            document.body.style.backgroundColor = 'lightblue';
+        } else if (num2 > num1) {
+            document.writeln('<h2>' + num2 + '>' + num1 + '</h2>');
+            document.body.style.backgroundColor = 'orange';
+
+        } else if (num2 == num1) {
+            document.writeln('<h2>' + num1 + '==' + num2 + '</h2>');
+            document.body.style.backgroundColor = 'lightyellow';
+
+        }
+    </script>
+
+
+</body>
+
+</html>
